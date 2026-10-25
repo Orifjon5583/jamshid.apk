@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Haftalik Xarajat</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_expense">Xarajatlar</string>
+    <string name="nav_income">Daromad</string>
+    <string name="nav_history">Tarix</string>
+    <string name="nav_debt">Qarzlar</string>
+
+    <!-- Common -->
+    <string name="currency">so\'m</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="save">Saqlash</string>
+    <string name="delete">O\'chirish</string>
+    <string name="edit">Tahrirlash</string>
+    <string name="confirm">Tasdiqlash</string>
+    <string name="delete_confirm_title">Haqiqatan ham o\'chirmoqchimisiz?</string>
+    <string name="delete_confirm_desc">Bu amal qaytarilmaydi.</string>
+    <string name="see_all">Barchasi</string>
+    <string name="clear">Tozalash</string>
+    <string name="today">Bugun</string>
+    <string name="yesterday">Kecha</string>
+
+    <!-- Expenses -->
+    <string name="total_balance">JAMI BALANS</string>
+    <string name="balance_subtitle">Daromad - xarajatlar va qarzlar ta\'siri</string>
+    <string name="quick_add_expense">Xarajat qo\'shish</string>
+    <string name="quick_entry">TEZKOR KIRITISH</string>
+    <string name="expense_name_hint">Masalan: Bozorlik</string>
+    <string name="expense_amount_hint">Summani kiriting</string>
+    <string name="save_expense">Xarajatni saqlash</string>
+    <string name="recent_expenses">Oxirgi xarajatlar</string>
+    <string name="no_recent_expenses">Hozircha xarajatlar mavjud emas</string>
+    <string name="limit_warning">Xarajat limiti 80%% dan oshdi!</string>
+    <string name="limit_exceeded">Diqqat! Belgilangan limitdan oshib ketdingiz!</string>
+    <string name="expense_limit_settings">Xarajat limitini sozlash</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Oziq-ovqat</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_housing">Uy-joy</string>
+    <string name="cat_utilities">Kommunal to\'lovlar</string>
+    <string name="cat_education">Ta\'lim</string>
+    <string name="cat_health">Sog\'liq</string>
+    <string name="cat_clothing">Kiyim-kechak</string>
+    <string name="cat_entertainment">Ko\'ngilochar</string>
+    <string name="cat_shopping">Xaridlar</string>
+    <string name="cat_other">Boshqa</string>
+
+    <!-- Income -->
+    <string name="monthly_income_title">BU OYLIK JAMI DAROMAD</string>
+    <string name="quick_add_income">Yangi daromad qo\'shish</string>
+    <string name="income_source_hint">Masalan: Oylik maosh yoki Frilans</string>
+    <string name="income_amount_hint">Summani kiriting</string>
+    <string name="save_income">DAROMADNI SAQLASH</string>
+    <string name="income_list_title">Daromadlar ro\'yxati</string>
+    <string name="income_empty">Hozircha boshqa daromadlar yo\'q. Yangi olingan daromadlarni yuqoridagi forma orqali kiritishingiz mumkin.</string>
+
+    <!-- History -->
+    <string name="history_title">Moliyaviy tarix</string>
+    <string name="tab_daily">Kunlik</string>
+    <string name="tab_weekly">Haftalik</string>
+    <string name="tab_monthly">Oylik</string>
+    <string name="tab_yearly">Yillik</string>
+    <string name="weekly_total">HAFTALIK JAMI</string>
+    <string name="daily_average">KUNLIK O\'RTACHA</string>
+    <string name="category_analysis">Kategoriyalar tahlili</string>
+    <string name="daily_operations">Kundalik operatsiyalar</string>
+    <string name="no_history_records">Bu davr uchun ma\'lumot yo\'q</string>
+
+    <!-- Debts -->
+    <string name="debts_title">Qarzlar</string>
+    <string name="debts_subtitle">Telemetriya &amp; Nazorat</string>
+    <string name="lent_summary">Men bergan</string>
+    <string name="borrowed_summary">Men olgan</string>
+    <string name="receivable_label">Kutilayotgan pul (Menga)</string>
+    <string name="payable_label">Majburiyat (Men berishim kerak)</string>
+    <string name="add_debt_title">Yangi qarz yozuvi</string>
+    <string name="person_name_hint">Shaxsning ismi (masalan: Jasur)</string>
+    <string name="debt_phone_hint">Telefon raqami (ixtiyoriy)</string>
+    <string name="debt_reason_hint">Qarz sababi / izoh</string>
+    <string name="debt_given_date">Berilgan sana</string>
+    <string name="debt_due_date">Qaytarish sanasi</string>
+    <string name="debt_type_lent">Men bergan qarz (Menga berishadi)</string>
+    <string name="debt_type_borrowed">Men olgan qarz (Men berishim kerak)</string>
+    <string name="save_debt">QARZNI SAQLASH</string>
+    <string name="active_debts">FAOL QARZLAR</string>
+    <string name="closed_debts">YOPILGAN QARZLAR</string>
+    <string name="status_due_today">Bugun to\'lash kerak</string>
+    <string name="status_overdue">Muddati o\'tgan</string>
+    <string name="status_on_track">Rejali</string>
+    <string name="status_paid">To\'langan</string>
+    <string name="mark_paid">To\'landi</string>
+    <string name="call_person">Qo\'ng\'iroq</string>
+    <string name="no_debts">Qarzlar mavjud emas</string>
+
+    <!-- Validation errors -->
+    <string name="err_empty_title">Iltimos, nomni kiriting</string>
+    <string name="err_invalid_amount">Summa noldan katta bo\'lishi kerak</string>
+    <string name="err_empty_name">Shaxsning ismini kiriting</string>
+    <string name="err_due_before_given">Qaytarish muddati qarz olingan sanadan oldin bo\'lishi mumkin emas</string>
+    <string name="success_saved">Muvaffaqiyatli saqlandi</string>
+</resources>
